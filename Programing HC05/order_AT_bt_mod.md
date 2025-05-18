@@ -48,3 +48,10 @@ AT+ROLE=0/1 (slave-server / master-senzor_n)
 AT+PSWD=1234
 AT+RESET
 ```
+
+
+![Photo 1](/Programing%20HC05/Photos/1.jpg) 
+![Photo 2](/Programing%20HC05/Photos/2.jpg) 
+![Photo 3](/Programing%20HC05/Photos/3.jpg)
+![Photo 4](/Programing%20HC05/Photos/4.jpg)
+![Photo 5](/Programing%20HC05/Photos/5.jpg)

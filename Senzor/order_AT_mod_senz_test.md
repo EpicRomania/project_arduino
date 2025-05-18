@@ -48,3 +48,14 @@
 ```cpp
     #include <DHT.h>
 ```
+
+
+![Photo 1](/Senzor/Photos/1.jpg)
+![Photo 2](/Senzor/Photos/2.jpg)
+![Photo 3](/Senzor/Photos/3.jpg)
+![Photo 4](/Senzor/Photos/4.jpg) 
+![Photo 5](/Senzor/Photos/5.jpg)
+![Photo 6](/Senzor/Photos/6.jpg)
+![Photo 7](/Senzor/Photos/7.jpg)
+![Photo 8](/Senzor/Photos/8.jpg)
+![Photo 9](/Senzor/Photos/9.jpg)

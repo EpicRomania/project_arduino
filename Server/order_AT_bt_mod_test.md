@@ -38,11 +38,12 @@ This 16×2 yellow-green backlit LCD (HD44780) is designed for low-power applicat
 **Usage Instructions:**  
 1. Connect the LCD to the Nano as shown above.  
 2. In `platformio.ini`, add:
-   ```ini
+```ini
    lib_deps =
        587  ; LiquidCrystal I2C
+```
 2. In `main.cpp`, add:
-    ```cpp
+```cpp
     #include <LiquidCrystal_I2C.h>
         ///
     void setup() {
@@ -52,3 +53,13 @@ This 16×2 yellow-green backlit LCD (HD44780) is designed for low-power applicat
     lcd.clear();
         ///
     }
+```
+
+
+![Photo 1](/Server/Photos/1.jpg)
+![Photo 2](/Server/Photos/2.jpg)
+![Photo 3](/Server/Photos/3.jpg)
+![Photo 4](/Server/Photos/4.jpg) 
+![Photo 5](/Server/Photos/5.jpg)
+
+
