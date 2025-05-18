@@ -55,11 +55,15 @@ This 16×2 yellow-green backlit LCD (HD44780) is designed for low-power applicat
     }
 ```
 
+### Device off Pictures
 
 ![Photo 1](/Server/Photos/1.jpg)
 ![Photo 2](/Server/Photos/2.jpg)
 ![Photo 3](/Server/Photos/3.jpg)
 ![Photo 4](/Server/Photos/4.jpg) 
+
+### Device on Pictures
+
 ![Photo 5](/Server/Photos/5.jpg)
 
 
