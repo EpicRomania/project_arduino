@@ -87,7 +87,7 @@ void loop()
                 Serial.print(F("T=")); Serial.print(t);
                 Serial.print(F("  H=")); Serial.println(h);
 
-                /* after splash time is over, paint immediately */
+                
                 if (millis() > splashEnds) drawValues(t, h);
                 idx = 0;
             }
