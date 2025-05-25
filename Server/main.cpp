@@ -14,12 +14,12 @@ SoftwareSerial     BTSerial(BT_RX, BT_TX);
 LiquidCrystal_I2C  lcd(0x27, 16, 2);      // change to 0x3F if your board needs it
 
 bool   linked            = false;         // current link status
-unsigned long splashEnds = 0;             // time when “CONNECTED” splash expires
-                                          // 0 = splash over / not shown
+unsigned long splashEnds = 0;             
+
 char   lineBuf[32];
 uint8_t idx = 0;
 
-/* last received values (for first repaint after splash) */
+
 float   lastT = NAN, lastH = NAN;
 bool    haveValues = false;
 
@@ -55,7 +55,7 @@ void setup()
 
 void loop()
 {
-    /* ---- link-status handling ---- */
+
     bool s = digitalRead(BT_STATE);
 
     if (s && !linked) {                           // link just came up
