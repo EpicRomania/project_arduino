@@ -7,13 +7,15 @@
 
 > **KEY Pin Info:** The `EN` pin is connected to 5V **only when you want to enter AT command mode**. It should be set **high** before powering the module to trigger AT mode.
 
+> **RX0->RXD WITHOUT ANY RESISTORS**
+
 ### Wiring Table
 
 
 | HC-05 Pin | Arduino Nano Pin | Description                   |
 |-----------|------------------|-------------------------------|
-| RXD       | TX1 (D1)         | Serial receive (from Nano TX) |
-| TXD       | RX0 (D0)         | Serial transmit (to Nano RX)  |
+| RXD       | rX0 (D0)         | Serial receive (from Nano TX) |
+| TXD       | TX1 (D1)         | Serial transmit (to Nano RX)  |
 | GND       | GND              | Ground                        |
 | VCC       | 5V               | Power supply                  |
 | EN        | 5V               | Enable AT mode (optional use) |

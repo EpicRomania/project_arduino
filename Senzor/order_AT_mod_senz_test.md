@@ -14,8 +14,8 @@
 
 | Device    | Module Pin | Arduino Nano Pin | Description                                 |
 |-----------|------------|------------------|---------------------------------------------|
-| **HC-05** | RXD        | D11              | `SoftwareSerial` RX (from Nano TX)          |
-|           | TXD        | D10              | `SoftwareSerial` TX (to Nano RX)            |
+| **HC-05** | RXD        | D10              | `SoftwareSerial` RX (from Nano TX)          |
+|           | TXD        | D11              | `SoftwareSerial` TX (to Nano RX)            |
 |           | STATE      | D2               | Connection status output (HIGH when paired) |
 |           | VCC        | 5V               | Power (4-6 V DC)                            |
 |           | GND        | GND              | Ground                                      |
